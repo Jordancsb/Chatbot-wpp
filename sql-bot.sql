@@ -37,7 +37,7 @@ CREATE TABLE `initial` (
 
 LOCK TABLES `initial` WRITE;
 /*!40000 ALTER TABLE `initial` DISABLE KEYS */;
-INSERT INTO `initial` VALUES ('ETAPA_1','hola, hola!,ola,inicio,welcome',2),('STEP_2','cursos,info,curso',3),('STEP_2_1','angular',4),('STEP_2_2','node',5),('STEP_2_3','ngrx',6),('STEP_2_4','aws',7),('STEP_3','asesor',8),('STEP_4','muchas gracias,gracias,vale gracias',9);
+INSERT INTO `initial` VALUES ('STEP_1','oi, ola!, eai, inicio, bem-vindo',2),('STEP_2','info,curso',3),('STEP_2_1','conteudo_1',4),('STEP_2_2','conteudo_2',5),('STEP_2_3','conteudo_3',6),('STEP_2_4','conteudo_4',7),('STEP_3','conteudo_5',8),('STEP_4','valeu, obrigado!',9);
 /*!40000 ALTER TABLE `initial` ENABLE KEYS */;
 UNLOCK TABLES;
 
