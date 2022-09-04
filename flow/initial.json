@@ -2,52 +2,46 @@
   {
     "keywords":  
     [
-        "Oi",
+        "oi",
         "ola!",
         "Eai",
-        "ole",
-        "inicio",
-        "welcome",
-        "buenos días",
-        "buenas tardes",
-        "buenas noches",
-        "me dieron este número",
-        "venden a crédito",
-        "quisiera saber si venden",
-        "necesito saber"
+        "oie",
+        "bom dia",
+        "boa tarde",
+        "boa noite"
     ],
     "key": "STEP_1"
   },
   {
       "keywords":  
         [
-          "cursos",
-          "info",
-          "curso"        
+          "musica",
+          "infos",
+          "video"        
         ],
       "key": "STEP_2"
   },
   {
       "keywords":  [
-          "angular"
+        "Teste STEP_2_1"
       ],
       "key": "STEP_2_1"
   },
   {
       "keywords":  [
-          "node"
+        "Teste STEP_2_2"
       ],
       "key": "STEP_2_2"
   },
   {
       "keywords":  [
-          "ngrx"
+        "Teste STEP_2_3"
       ],
       "key": "STEP_2_3"
   },
   {
       "keywords":  [
-          "aws"
+        "Teste STEP_2_4"
       ],
       "key": "STEP_2_4"
   },
@@ -69,19 +63,19 @@
   },
   {
       "keywords":  [
-          "youtube"
+        "Teste STEP_5"
       ],
       "key": "STEP_5"
   },
   {
       "keywords":  [
-          "VER_CURSOS"
+        "Teste STEP_6"
       ],
       "key": "STEP_6"
   },
   {
       "keywords":  [
-          "telegram"
+        "Teste STEP_7"
       ],
       "key": "STEP_7"
   },

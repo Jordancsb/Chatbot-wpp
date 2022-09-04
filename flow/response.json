@@ -11,9 +11,7 @@
   "STEP_0":{
       "replyMessage":
     [
-    "El flujo ha finalizado \n",
-    "pero puedes ver todo el codigo de este \n",
-    "repositorio en https://github.com/leifermendez/bot-whatsapp.git"
+    "Conversa finalizada"
     ],
     "media":null,
     "trigger":null
@@ -22,56 +20,51 @@
   {
     "replyMessage":
     [
-    "Hola! y✌️ Bienvenido a este 🤖 CHATBOT de Whatsapp, lo primero \n",
-    "decirte que mi nombre es *Leifer Mendez*😎  \n",
-    "\n Si necesitas ver más info sobre las capacitacion tecnicas ",
-    "escribe *cursos* o *info* o escribe *audio*"
+    "Olá! Bem-vindo a este 🤖 do Whatsapp, primeira coisa \n",
+    "dizer que meu nome é *Jordan Cruz*😎\n",
+    "\n Se você precisar ver mais informações sobre o treinamento técnico ",
+    "escreva *cursos* ou *informações* ou escreva *áudio*"
     ],
-    "media":"https://media2.giphy.com/media/VQJu0IeULuAmCwf5SL/giphy.gif",
+    "media":"",
     "trigger":null,
     "actions":
     {
-    "title":"¿Que te interesa ver?",
-    "message":"Recuerda todo este contenido es gratis y estaria genial que me siguas!",
-    "footer":"Gracias",
+    "title":"Que tal vermos?",
+    "message":"Lembre-se de ver todo conteúdo!",
+    "footer":"Obrigado!",
     "buttons":
         [
-            {"body":"Cursos"},
-            {"body":"Youtube"},
-            {"body":"Telegram"}
+            {"body":"Conteudo_1"},
+            {"body":"Conteudo_2"},
+            {"body":"Conteudo_3"}
         ]
     }
   },
   "STEP_2":{
       "replyMessage":[
-          "Perfecto, te voy a pasar la lista ",
-          "de los temas que tengo y un breve video 🙂🤖 \n\n",
-          "*Angular* Basico (Pago) \n",
-          "*Angular* Basico (Gratis) \n",
-          "*Node* Basico (Gratis) \n",
-          "*NGRX* Basico (Gratis) \n",
-          "*AWS* Basico (Pago) \n\n",
-          "Escribe la palabra del tema que te interese \n"
+        "Perfeito, vou te passar a lista",
+        "Das músicas que tenho e um pequeno vídeo 🙂🤖 \n\n",
+        "*Musica_01* \n",
+        "*Musica_02* \n",
+        "*Vídeo_01* \n",
+        "Escreva sua escolha \n"
       ],
-      "media":"https://i.giphy.com/media/5J5gN0WUk0VToHaK2p/giphy-downsized.gif",
+      "media":"",
       "trigger":null
   },
   "STEP_2_1":{
       "replyMessage":[
-          "Si te interesa Angular tienes disponible \n",
-          "*(Gratis)* https://bit.ly/367tJ32 \n\n",
-          "*(Pago)* https://link.codigoencasa.com/PROMO-INICIAL \n\n",
-          "*(Pago)* https://link.codigoencasa.com/ANGULAR-BASICO-EDTEAM \n\n",
-          "😎😎😎"
+        "Exemplo_Step_2_1 \n",
+        "Conteudo_Step_2_1",
+        "😎😎😎"
       ],
-      "media":"https://i.imgur.com/Q0a5UQI.jpg",
+      "media":"",
       "trigger":null
   },
   "STEP_2_2":{
       "replyMessage":[
-          "Si te interesa NODE tienes disponible \n",
-          "*(Gratis)* https://bit.ly/3od1Bl6 \n\n",
-          "Espero pronto tener más material disponible",
+          "Exemplo_Step_2_2 \n",
+          "Conteudo_Step_2_2",
           "🤖"
       ],
       "media":null,
@@ -79,72 +72,70 @@
   },
   "STEP_2_3":{
       "replyMessage":[
-          "NGRX para manejar estados en Angular \n",
-          "*(Gratis)* https://bit.ly/ngrx-desde-cero \n",
-          "A darle! 😮"
+        "Exemplo_Step_2_3 \n",
+        "Conteudo_Step_2_3",
+        "🤖"
       ],
       "media":null,
       "trigger":null
   },
   "STEP_2_4":{
       "replyMessage":[
-          "Muy bien AWS esta pronto a salir pre-registrate aquí \n",
-          "*(Pre-registro)* https://link.codigoencasa.com/AWS-BASICO-INVITACION \n",
-          "😮😮"
+        "Exemplo_Step_2_4 \n",
+        "Conteudo_Step_2_4",
+        "🤖"
       ],
       "media":null,
       "trigger":null
   },
   "STEP_3":{
       "replyMessage":[
-          "¿Ok cual curso de intereso? \n",
-          "*angular* , *node*, *ngrx*, *aws*"
+        "Exemplo_Step_3 \n",
+        "Conteudo_Step_3",
+        "🤖"
       ],
       "media":null,
       "trigger":null
   },
   "STEP_4":{
       "replyMessage":[
-          "Gracias a ti! \n"
+        "Exemplo_Step_4 \n",
+        "Obrigado! Posso te ajudar em algo mais?! \n"
       ],
-      "media":"https://media4.giphy.com/media/hur0SFIU5SH4mxNBWa/giphy.gif",
+      "media":"",
       "trigger":null
   },
   "STEP_5":{
       "replyMessage":[
-          "Muy bien te comparto el canal de Youtube \n",
-          "https://youtube.com/leifermendez \n"
+        "Exemplo_Step_5 \n",
+        "Conteudo_Step_5",
+        "🤖"
       ],
       "media":null,
       "trigger":null
   },
   "STEP_6":{
       "replyMessage":[
-          "Perfecto, te voy a pasar la lista ",
-          "de los temas que tengo y un breve video 🙂🤖 \n\n",
-          "*Angular* Basico (Pago) \n",
-          "*Angular* Basico (Gratis) \n",
-          "*Node* Basico (Gratis) \n",
-          "*NGRX* Basico (Gratis) \n",
-          "*AWS* Basico (Pago) \n\n",
-          "Escribe la palabra del tema que te interese \n"
+        "Exemplo_Step_6 \n",
+        "Conteudo_Step_6",
+        "🤖"
       ],
-      "media":"https://i.giphy.com/media/5J5gN0WUk0VToHaK2p/giphy-downsized.gif",
+      "media":"",
       "trigger":null
   },
   "STEP_7":{
       "replyMessage":[
-          "Vente al telegram \n",
-          "https://t.me/leifermendez \n"
+          "Aqui está meu telegram \n",
+          "https://t.me/ \n"
       ],
       "media":null,
       "trigger":null
   },
   "STEP_8":{
       "replyMessage":[
-          "Esto es una nota de voz \n"
+          "Aqui um exemplo de um audio! \n"
       ],
-      "media":"nota-de-voz.mp3",
+      "media":"Audio_01.mp3",
       "trigger":null
   }
 }
