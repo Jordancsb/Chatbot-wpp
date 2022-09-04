@@ -75,7 +75,7 @@ https://cloud.google.com/dialogflow/cx/docs/concept/agent?hl=pt-br
 - Dialogflow (opcional) só se aplica se você for usar o modo 'dialogflow'
 
 ### Botões
-[![btn](https://i.imgur.com/W7oYlSu.png)](https://youtu.be/5lEMCeWEJ8o)
+![btn](assets/001.png)
 
 Para implementar os botões você só precisa usar o método __sendMessageButton__ encontrado dentro de `./controllers/send` Deixo um exemplo de como usá-lo.
 
@@ -96,9 +96,12 @@ aguarde sendMessageButton(
 ```
 
 ## Áudios
-[![nota de voz](https://i.imgur.com/zq6xYDp.png)](https://i.imgur.com/zq6xYDp.png)
+<p style="text-align: center">
+    <img src='assets/002.png' width="650"/>
+</p>
 
 Audios formatados nativamente podem ser enviados para que não pareçam encaminhados. Neste exemplo vou enviar o arquivo __PTT-20220223-WA0000.opus__ que está dentro da pasta __/mediaSend__
+
 ```javascript
 const { sendMediaVoiceNote } = require('./controllers/send')
 aguarde sendMediaVoiceNote (cliente, de, 'PTT-20220223-WA0000.opus')
