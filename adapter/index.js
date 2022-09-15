@@ -6,7 +6,7 @@ const stepsReponse = require('../flow/response.json')
 
 const get = (message) => new Promise((resolve, reject) => {
     if (process.env.DATABASE === 'none') {
-        const { key } = stepsInitial.filter(k => k.keywords.includes(message)) || { key: null }
+        const { key } = stepsInitial.find(k => k.keywords.includes(message)) || { key: null }
         const response = key || null
         resolve(response)
     }
